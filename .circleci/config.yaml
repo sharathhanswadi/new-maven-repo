@@ -24,7 +24,7 @@ jobs: # a collection of steps
           key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
       - run:
           name: build package 
-          command: mvn package
+          command: curl ifconfig.me
           #      - run:
    
   dev:
